@@ -1,0 +1,124 @@
+/* Type your code here */
+
+*
+{
+	margin: 0;
+	padding:0;
+}
+
+body
+{
+	background : url('assets/background-image1.png') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: left center;
+}
+
+#logo
+{
+	margin-top: 2rem;
+}
+
+section
+{
+	margin: 4rem;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+header
+{
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	
+
+}
+#title
+{
+	font-size: 3rem;
+	filter: drop-shadow(2px  3px rgb(95, 94, 94))
+}
+#subtitle
+{
+	color: rgb(110, 102, 102);
+}
+table 
+{
+	margin-top: 2rem;
+	border-collapse: collapse;
+
+}
+a
+{
+	text-decoration: none;
+	color: rgb(0, 0, 255);
+	font-weight: normal;
+}
+#teamtitle
+{
+	text-align: left;
+	background-color: red;
+}
+#teamtitle,#score
+{
+	padding:10px;
+	color: white;
+}
+#score
+{
+	text-align: right;
+	background-color: red;
+}
+table tr th,td
+{
+	padding: 0.5rem;
+	padding-right: 2rem;
+	font-weight: bold;
+	 
+}
+.coltitle
+{
+	background: rgb(231, 230, 230);
+	text-align: left;
+}
+
+.players
+{
+	border-top : 0.5px  groove;
+	border-bottom : 0.5px groove;
+	background : rgb(255, 255, 255);
+}
+
+.sr
+{
+	text-align: right;
+	padding-right: 10px;
+}
+a, .bowler
+{
+	padding-right: 5rem;
+}
+.bowler
+{
+	color: grey;
+	font-weight: normal;
+
+}
+td[colspan="6"],a
+{
+	padding-right: 0;
+}
+/* change the font family and spacing as per your project font */
+.footer{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	position: relative;
+	top: 750px;
+	margin-left: 80px;
+	font-size: 18px;
+	font-family: Nunito Sans;
+    font-style: normal;
+    
+}
